@@ -6,15 +6,16 @@ import java.util.Scanner;
  * @author acer
  *
  */
+ // creating a class Qn9 
 public class Qn9 {
 	
 
-        public static void main(String[] args) {
+        public static void main(String[] args) {            // creating  main function 
 
-            Scanner sc=new Scanner(System.in);
+            Scanner sc=new Scanner(System.in);                 //input
             int n=sc.nextInt();            
             String ans="";
-            if(n%2==1){
+            if(n%2==1){                                           //condition checking
               ans = "Weird";
             }
             else {
@@ -26,10 +27,10 @@ public class Qn9 {
                     ans = "Not Weird";
                 }
             
-               //Complete the code
+               
                 
             }
-            System.out.println(ans);
+            System.out.println(ans);                     //output
             
         }
     }
