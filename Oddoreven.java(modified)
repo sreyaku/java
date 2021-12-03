@@ -1,0 +1,30 @@
+package OddorEven;
+
+import java.util.Scanner;
+
+/**
+ * @author acer
+ *
+ */
+ // creating a class OddorEven 
+public OddorEven{
+	
+
+        public static void main(String[] args) {            // creating  main function 
+
+            Scanner sc=new Scanner(System.in);                 //input
+            int num=sc.nextInt();            
+            String ans="";
+            if(num%2==1) ||(n >= 6 && n <= 20) {                                           //condition checking
+              ans = "Weird";
+            }
+            else {
+            ans="Not Weird";
+               
+                
+            }
+            System.out.println(ans);                     //output
+            
+        }
+    }
+
